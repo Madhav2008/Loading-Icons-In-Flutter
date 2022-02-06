@@ -39,246 +39,249 @@ class _MyHomePageState extends State<MyHomePage> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.orangeAccent,
+        backgroundColor: Colors.brown,
         centerTitle: true,
       ),
-      body: Column(
-        children: [
-          const SizedBox(
-            height: 30,
-          ),
+      body: Container(
+        color: Colors.black,
+        child: Column(
+          children: [
+            const SizedBox(
+              height: 30,
+            ),
 
-          // First Line
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              SpinKitRotatingPlain(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitDoubleBounce(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitWave(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitWanderingCubes(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitFadingFour(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitFadingCube(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-            ],
-          ),
-          const SizedBox(
-            height: 60,
-          ),
+            // First Line
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                SpinKitRotatingPlain(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitDoubleBounce(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitWave(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitWanderingCubes(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitFadingFour(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitFadingCube(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+              ],
+            ),
+            const SizedBox(
+              height: 60,
+            ),
 
-          // Second Line
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              SpinKitPulse(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitChasingDots(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitThreeBounce(
-                size: 40,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitCircle(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitCubeGrid(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitFadingCircle(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-            ],
-          ),
-          const SizedBox(
-            height: 60,
-          ),
+            // Second Line
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                SpinKitPulse(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitChasingDots(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitThreeBounce(
+                  size: 40,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitCircle(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitCubeGrid(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitFadingCircle(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+              ],
+            ),
+            const SizedBox(
+              height: 60,
+            ),
 
-          // Third Line
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              SpinKitRotatingCircle(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitFoldingCube(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitPumpingHeart(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitHourGlass(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitPouringHourGlass(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitPouringHourGlassRefined(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-            ],
-          ),
-          const SizedBox(
-            height: 60,
-          ),
+            // Third Line
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                SpinKitRotatingCircle(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitFoldingCube(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitPumpingHeart(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitHourGlass(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitPouringHourGlass(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitPouringHourGlassRefined(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+              ],
+            ),
+            const SizedBox(
+              height: 60,
+            ),
 
-          // Fourth Line
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              SpinKitFadingGrid(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitRing(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitRipple(
-                size: 40,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitSpinningCircle(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitSpinningLines(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitSquareCircle(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-            ],
-          ),
-          const SizedBox(
-            height: 60,
-          ),
+            // Fourth Line
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                SpinKitFadingGrid(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitRing(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitRipple(
+                  size: 40,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitSpinningCircle(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitSpinningLines(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitSquareCircle(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+              ],
+            ),
+            const SizedBox(
+              height: 60,
+            ),
 
-          // Fifth Line
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              SpinKitDualRing(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitPianoWave(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitDancingSquare(
-                size: 50,
-                color: Colors.redAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              SpinKitThreeInOut(
-                size: 50,
-                color: Colors.blueAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-            ],
-          ),
-        ],
+            // Fifth Line
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                SpinKitDualRing(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitPianoWave(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitDancingSquare(
+                  size: 50,
+                  color: Colors.redAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                SpinKitThreeInOut(
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
