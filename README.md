@@ -1,6 +1,3 @@
 # Loading Icons In Flutter
 
-
-
-https://user-images.githubusercontent.com/72864817/152678990-75bfaa2a-bdbf-4e8b-975b-1c93d84e3544.mp4
-
+![record](https://user-images.githubusercontent.com/72864817/152679052-f411ec45-b6c5-4b19-bc80-9d7e21e3c1a0.gif)
