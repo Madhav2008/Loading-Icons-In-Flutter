@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.brown,
+        backgroundColor: Colors.teal,
         centerTitle: true,
       ),
       body: Container(
